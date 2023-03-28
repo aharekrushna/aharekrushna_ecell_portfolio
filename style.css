@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eceffc;
+}
+nav{
+    display: flex;
+    width: 84;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.logo{
+   height: 12vw;
+   
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 7%;
+    margin-top: -4%;
+}
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+        position: absolute;
+        font-weight: bold;
+        display: inline-block;
+        margin: 30px 0;
+        font-size: 18px;
+        background: #4070f4;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        padding: 8px 25px;
+        border-radius: 6px;
+        transition: 0.5s;
+}
+      .detel a:hover{
+        background: #000;
+        border: 1px solid #4070f4;
+      }
+      
+
+.images{
+ width: 45%;
+ height: 95%;
+ position: fixed;
+ left: 50%;
+ right: 100px;
+ margin-top: 2%;
+
+}
+.images img{
+    height: 90%;
+    position: absolute;
+    left:60%;
+    bottom: 65%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+
+    
+
+.images:hover .shape{
+    left: 56%;
+    
+    
+}
+.images:hover .boy{
+    left:52.5%;
+}
+span {
+    position: absolute;
+    color: orange;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .75s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 30% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
